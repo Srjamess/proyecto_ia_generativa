@@ -1,0 +1,91 @@
+# -----------------------------
+#   PYTHON & VENV
+# -----------------------------
+venv/
+env/
+ENV/
+.venv/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -----------------------------
+#   PACKAGES PESADOS
+# -----------------------------
+# Evita subir librerías instaladas
+site-packages/
+*.dll
+*.so
+*.dylib
+
+# -----------------------------
+#   NOTEBOOK CHECKPOINTS
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+#   CONFIG & LOCAL SETTINGS
+# -----------------------------
+*.log
+*.env
+.env.*
+*.ini
+*.cfg
+
+# -----------------------------
+#   DATASETS
+# -----------------------------
+data/
+datasets/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.zip
+*.tar
+*.gz
+
+# -----------------------------
+#   MODELS (Torch, TensorFlow)
+# -----------------------------
+*.pt
+*.pth
+*.h5
+*.onnx
+*.pb
+*.tflite
+
+# -----------------------------
+#   OUTPUTS / RESULTADOS
+# -----------------------------
+outputs/
+results/
+runs/
+checkpoints/
+
+# -----------------------------
+#   EDITORES
+# -----------------------------
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+
+# -----------------------------
+#   SISTEMA OPERATIVO
+# -----------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
